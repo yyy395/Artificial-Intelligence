@@ -1,0 +1,14 @@
+unet.py:unet网络模型，输入为28*28*1的灰度图；
+unet_test.py：报告中Improvements部分使用的程序，输入为48*48*3的RGB图像；
+resnet.py:resnet18网络模型，输入为28*28*1的灰度图；
+resnet_test.py:报告中Improvements部分使用的程序，输入为48*48*3的RGB图像；
+vgg.py:vgg16网络模型，输入为48*48*3的RGB图像；
+load_model_unet.py:导入训练好的unet模型进行测试，输入为28*28*1的灰度图；
+load_model_unet_1.py:导入训练好的unet模型进行测试，输入为48*48*3的RGB图像；
+load_model_resnet.py:导入训练好的resnet18模型进行测试，输入为28*28*1的灰度图；
+load_model_resnet_1.py:导入训练好的resnet18模型进行测试，输入为48*48*3的RGB图像；
+load_model_vgg.py:导入训练好的vgg16模型进行测试；
+pre.py:对自制手写数字集进行图像预处理；
+figure.py:导入自制手写数字集图像；
+call_gui.py:启动GUI界面；
+gui.py:GUI相关函数，可以修改train1、train2、train3、test1、test2、test3等函数来实现对不同网络模型的训练和测试。
